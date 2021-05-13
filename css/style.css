@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 40px;
+    color:hsl(0, 0%, 95%) ;
+    text-transform: uppercase;
+    
+}
+
+p {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-cards {
+background-color: hsl(31, 77%, 52%) ;
+width: 920px;
+height: 500px;
+border-radius: 8px;
+display: flex;
+}
+
+.card {
+    padding: 48px;
+    width: 307px;
+    height: 500px;
+}
+
+.yellow, .cyan {
+    border-radius: 8px;
+}
+.cyan {
+    background-color: hsl(184, 100%, 22%);
+    
+}
+
+.dark-cyan {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 8px 8px 0;
+    
+}
+
+.title-card {
+    width: 101px;
+    height: 48px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.body-card {
+    width: 212px;
+    height: 125px;
+    margin-bottom: 83px;
+}
+
+.btn {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding: 11px 31px;
+    border-radius: 25px;
+}
+
+.btn-yellow {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-cyan {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-dark-cyan {
+    color: hsl(179, 100%, 13%);
+}
+
