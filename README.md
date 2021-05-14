@@ -8,3 +8,11 @@ I was able to solve the desktop version pretty quickly. The mobile version cost 
 
 I await your opinion.
 
+Screenshot - Desktop version
+https://github.com/mfer9326/three-card/blob/main/screenshots/desktop.JPG
+
+Screenshot - Mobile version
+https://github.com/mfer9326/three-card/blob/main/screenshots/mobile.JPG
+
+URL live -
+https://three-card-challenge.netlify.app/
