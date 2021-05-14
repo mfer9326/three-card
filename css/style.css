@@ -38,35 +38,21 @@ a {
 }
 
 .container-cards {
-  
+  overflow: hidden;
   width: 920px;
   border-radius: 8px;
   display: flex;
 }
 
-@media (min-width:375px) and  (max-width:768px) {
-  body {
-    height: max-content;
-    margin: 88px 0;
-  }
-  
-  .container-cards {
-    width: 327px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-}
+
 
 .card {
   padding: 48px;
   width: 307px;
 }
 
-.yellow,
-.cyan {
-  border-radius: 8px;
+.yellow {
+  border-radius: 8px 0 0 8px;
 }
 
 .yellow {
@@ -136,3 +122,24 @@ a {
 
 /*mobile*/
 
+@media (min-width:280px) and  (max-width:768px) {
+  body {
+    height: max-content;
+    margin: 88px 0;
+  }
+  
+  .container-cards {
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .yellow {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .dark-cyan {
+    border-radius: 0 0 8px 8px;
+  }
+}
